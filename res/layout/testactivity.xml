@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="wrap_content"
+  android:layout_height="wrap_content">
+  
+<TableLayout android:id="@+id/TableLayout01" android:layout_width="wrap_content" android:layout_height="wrap_content"><LinearLayout android:id="@+id/LinearLayout01" android:layout_width="wrap_content" android:layout_height="wrap_content">
+<Button android:id="@+id/Button03" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="生成验证码"></Button><EditText android:id="@+id/EditText01" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text=""></EditText>
+
+
+
+
+</LinearLayout>
+<LinearLayout android:id="@+id/LinearLayout03" android:layout_width="wrap_content" android:layout_height="wrap_content"><ImageView android:id="@+id/ImageView01" android:layout_height="fill_parent" android:layout_width="fill_parent"></ImageView></LinearLayout><LinearLayout android:id="@+id/LinearLayout02" android:layout_width="wrap_content" android:layout_height="wrap_content"><Button android:id="@+id/Button01" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="扫描"></Button>
+</LinearLayout>
+<TextView android:text="@+id/TextView01" android:id="@+id/TextView01" android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+
+</TableLayout>
+
+</LinearLayout>
